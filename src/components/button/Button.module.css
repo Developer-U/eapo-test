@@ -1,0 +1,17 @@
+.button {
+    padding: 8px 40px;
+    width:100%;
+    min-height: 40px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;   
+    border: none;
+    border-radius: 6px;
+    text-align: left;
+}
+.button:hover {
+    background-color: #3c2fd6;
+}
+.button.active {
+    background-color: #4f43da;    
+}

@@ -1,0 +1,37 @@
+#root {
+  width: 100%;
+}
+.app-main__left, .app-main__right {
+  min-height: 100vh;
+  height: auto;
+  padding:24px;
+}
+.app-main__left {
+  background-color:#3c2fd6;  
+}
+.app-main__right {
+  background-color: #fff;
+  max-width: calc(100% - 326px);
+}
+
+.app-main {
+  grid-template-columns: 300px 1fr;
+}
+.app-left__logo {
+  display: block;
+  margin-bottom: 24px; 
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0,0,0,0.88);
+}
+.app-left__logo img {
+  width: 180px;
+}
+table {
+  width: 100%;
+}
+table tr td {
+  border: 1px solid rgba(0,0,0,0.88);
+  padding: 6px 10px;
+}
+
+
